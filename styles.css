@@ -85,6 +85,7 @@ h3 {
   background-color: var(--secondary-color);
   padding: 20px;
   border-radius: 5px;
+  width: 100%;
 }
 
 .email-link {
@@ -126,16 +127,31 @@ button {
   margin-bottom: 70px;
 }
 
+.weather-heading {
+  margin-top: -20px;
+}
+
 .weather-img {
   margin-left: 22px;
+  width: 400px;
 }
 
 .yoga-img {
   margin-bottom: 50px;
+  width: 400px;
+}
+
+.yoga-heading {
+  margin-top: -20px;
 }
 
 .yogurt-img {
   margin-bottom: 50px;
+  width: 400px;
+}
+
+.yogurt-heading {
+  margin-top: -20px;
 }
 
 .intro-text {
@@ -148,7 +164,7 @@ button {
   margin-top: 70px;
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 576px) {
   h2 {
     font-size: 24px;
   }
@@ -183,11 +199,6 @@ button {
     width: 350px;
     justify-content: center;
     font-size: 14px;
-
-    /*display: block;
-    width: 500px;
-    text-align: center;
-    margin-left: -262px;*/
   }
 
   .paragraph2 {
@@ -196,11 +207,7 @@ button {
     width: 350px;
     justify-content: center;
     font-size: 14px;
-    margin-left: 60px;
-    /*display: block;
-    width: 500px;
-    text-align: center;
-    */
+    margin-left: 40px;
   }
 
   .weather-text {
@@ -212,19 +219,15 @@ button {
     display: flex;
     justify-content: center;
     margin-top: -25px;
-    /*margin-left: -255px;*/
   }
 
   .weather-heading {
     display: flex;
     justify-content: center;
-    /*width: 300px;
-    margin-left: 150px;*/
   }
 
   .btn1,
   .btn3 {
-    /*margin-left: -150px;*/
     width: 350px;
     display: flex;
     justify-content: center;
@@ -234,6 +237,7 @@ button {
     width: 350px;
     display: flex;
     justify-content: center;
+    margin-left: 40px;
     /*margin-left: 145px;*/
   }
 
@@ -243,5 +247,13 @@ button {
 
   .img-container {
     margin-top: 50px;
+  }
+
+  .about-img {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 21px;
   }
 }
